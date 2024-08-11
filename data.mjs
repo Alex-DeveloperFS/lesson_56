@@ -18,7 +18,7 @@ const createHtmlTemplate = (htmlInjection) => `
   </body>
 </html>
 `
-const rootHtmlTemplate = createHtmlTemplate('<h1 style="text-align: center;">Hello HTTP server</h1><div style="display: flex; justify-content: center; gap: 20px"><a style="border: solid 2px black; padding: 10px; text-decoration: none; background-color: black; color: white; border-radius: 10px; " href="/todos">Todos</a><a style="border: solid 2px black; padding: 10px; text-decoration: none; background-color: black; color: white; border-radius: 10px;  href="/form">Form</a></div>')
+const rootHtmlTemplate = createHtmlTemplate('<h1 style="text-align: center;">Hello HTTP server</h1><div style="display: flex; justify-content: center; gap: 20px"><a style="border: solid 2px black; padding: 10px; text-decoration: none; background-color: black; color: white; border-radius: 10px; " href="/todos">Todos</a><a style="border: solid 2px black; padding: 10px; text-decoration: none; background-color: black; color: white; border-radius: 10px;"  href="/form" >Form</a></div>')
 const notFoundTemplate = createHtmlTemplate('<h1 style="text-align: center;">404 Not Found</h1>')
 
 let formTemplate
